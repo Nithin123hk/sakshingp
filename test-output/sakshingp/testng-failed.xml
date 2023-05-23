@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite parallel="methods" name="Failed suite [sakshingp]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" parallel="methods" name="sakshingpAPP Test(failed)">
+    <parameter name="browser" value="chrome"/>
+    <classes>
+      <class name="sakshingp.testcases.TC_LoginPage">
+        <methods>
+          <include name="TC_LP_010"/>
+          <include name="TC_LP_006"/>
+          <include name="TC_LP_001"/>
+          <include name="TC_LP_011"/>
+          <include name="configBefore"/>
+          <include name="TC_LP_003"/>
+          <include name="TC_LP_005"/>
+          <include name="configAfter"/>
+          <include name="TC_LP_007"/>
+          <include name="TC_LP_009"/>
+          <include name="TC_LP_008"/>
+        </methods>
+      </class> <!-- sakshingp.testcases.TC_LoginPage -->
+    </classes>
+  </test> <!-- sakshingpAPP Test(failed) -->
+</suite> <!-- Failed suite [sakshingp] -->
